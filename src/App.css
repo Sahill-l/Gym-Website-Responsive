@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --body-font: 'Red Hat Display', sans-serif;
+  --second-font: 'Kaushan Script';
+  --third-font: 'Lobster', sans-serif;
+}
+
+#home__subtitle{
+  font-family: var(--body-font);
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-{stroke-width: 2px};
+  letter-spacing: 2px;
+}
+
+.nav-link00{
+  color: green;
+}
+
+.nav-link00 .active{
+  color: yellow;
+}
+
+#description{
+  color: white;
+  font-weight: 300;
+  font-weight: 500;
+}
+
+.home_title{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+.details{
+  margin: 10% 20%;
+}
+
+.banner-section{
+background-image: url(/public/images/gym-bg.jpg);
+max-width: 100%;
+}
+
+
+.banner-image{
+  max-width: 100%;
+  max-height: 550px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.brand-logos h1{
+  font-family: var(--third-font);
+  margin-top: 1%;
+}
+.start-btn a{
+text-decoration: none;
+color: white;
+}
+
+.typing{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.logos img{
+  max-width: 100%;
+  color: white;
+}
+
+.bmiimage{
+  max-width: 50%;
+  max-height: fit-content;
+  margin: 0 15%;
+}
+
+.bmi-section{
+  background-image: url(/public/images/dark-bg.jpg);
+  color: white;
+}
+
+.bmi-form{
+  margin-top: 10%;
+}
+
+.bmi-description{
+  margin-top: 10%;
+}
+
+.bmi-title{
+  color: white;
+  font-weight: 600;
+  font-size: 5rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  letter-spacing: 3px;
+}
+
+.bmi-subtitle{
+  font-size: 4rem;
+ font-weight: 900;
+ color: whitesmoke;
+}
+
+.bmi-btn{
+width: 100%;
+height: 5vh;
+font-size: 20px;
+font-weight: 600;
+}
+
+.calculate-input-fields{
+  width: 90%;
+  border: transparent;
+  background-color: transparent;
+  color: white;
+}
+
+.calculate-input-fields::placeholder{
+  text-align: center;
+  color: white;
+}
+
+.calculate-input-fields::-webkit-inner-spin-button,.calculate-input-fields::-webkit-outer-spin-button{
+-webkit-appearance: none;
+margin: 0;
+}
+
+.calculate-msg{
+  position: absolute;
+  transform: translateY(1rem );
+}
+
+.program-section{
+  /* border: 2px solid black; */
+  height: 50vh;
+}
+
+.program-logo{
+ width: 60px;
+ height: 60px;
+ background-color: rgb(169, 160, 160);
+ border-radius: 50%;
+ line-height: 50px;
+ margin-top: 5%;
+margin-left: 8%;
+}
+
+.program-img{
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+.program-card{
+  border: 2px solid gray;
+  border-radius: 3%;
+  box-shadow: 3px 5px 10px black;
+  min-height: 45vh;
+  max-width: 90%;
+  position: relative;
+  transition: all 0.3s;
+  background-color: azure;
+}
+
+.program-card:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+.program-title{
+    font-weight: 700;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+
+.program-heading{
+  font-family: var(--second-font);
+  text-align: center;
+  margin-top: 2%;
+  color: azure;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.program-subtitle{
+  font-style: var(--third-font);
+  font-weight: 700;
+  font-size: 2rem;
+  -webkit-text-fill-color: azure;
+  -webkit-text-stroke-width: 2px;
+  letter-spacing: 3px;
+}
+
+.program-description {
+  padding-left: 8%;
+  padding-top: 1%;
+  padding-bottom: 0%;
+}
+
+.program-arrow{
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  width: 50px;
+  height: 50px;
+  background-color: greenyellow;
+  border-radius: 50%;
+}
+
+.program-arrow i{
+  transition: all 0.5s ease-in;
+  color: black;
+}
+
+.arrow{
+ position: absolute;
+ top: .8rem;
+ left: 1rem;
+}
+
+.program-arrow:hover i{
+transform: translateX(.8rem);
+color: white;
+}
+
+.pricing-heading{
+  text-align: center;
+  font-family: var(--second-font);
+  font-size: 3rem;
+  color: white;
+}
+
+.pricing-subheading{
+  text-align: center;
+  font-family: var(--body-font);
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
+}
+
+.pricing-title{
+font-weight: bolder;
+font-size: 3rem;
+}
+
+.pricing-card{
+  transition: all 0.5s;
+}
+
+.pricing-card:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.pricing-list ul{
+  list-style: none;
+}
+
+.pricing-list ul li {
+  cursor: pointer;
+}
+
+.disabled{
+    opacity:0.6; 
+}
+
+.inner-pricing-section h1,h2{
+  margin-left: 6%;
+  padding-top: 6%;
+  color: white;
+}
+
+.inner-pricing-section{
+  border-radius: 2%;
+  border: 2px solid goldenrod;
+  box-shadow: 3px 2px 5px whitesmoke;
+  background-color: rgb(197, 159, 63);
+}
+.pricing-logo{
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.pricing-logo img{
+  max-width: 100%;
+}
+
+.purchase-btn{
+  width: 50%;
+  height: 3rem;
+  margin-bottom: 5%;
+  margin-left: 20%;
+}
+
+.purchase-btn:hover{
+  background-color: yellowgreen;
+}
+
+.footer{
+  color: white;
+}
+
+
+
+@media only screen and (width<=769px) {
+  .bmi-title{
+    font-size: 2rem;
+  }
+  .bmi-subtitle{
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  .program-card{
+    margin-left: 10%;
+  }
+  .program-subtitle{
+    font-size: 1rem;
+    padding-left: 10%;
+    margin-top: 5%;
+  } 
+}
+/* 
+@media only screen and (width<=1100px){
+  .purchase-btn{
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+  }
+} */
+
+@media only screen and (width>=768px) {
+  .all-bmi-details{
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+  
+}
+
+@media screen and (max-width: 993px) and (min-width: 770px){
+  .pricing-title{
+    font-size: 2rem;
+  }
+  .purchase-btn{
+    font-size: 10px;
+    font-weight: 500px;
+    letter-spacing: 0.3px;
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (width<320px) {
+  .purchase-btn{
+    font-size: 12px;
+    padding-top: 10px;
+  }
+}
